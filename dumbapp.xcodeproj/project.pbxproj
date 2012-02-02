@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5352628014DAEADB000F54A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5352627F14DAEADB000F54A0 /* UIKit.framework */; };
+		5352628214DAEADB000F54A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5352628114DAEADB000F54A0 /* Foundation.framework */; };
+		5352628414DAEADB000F54A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5352628314DAEADB000F54A0 /* CoreGraphics.framework */; };
+		5352628A14DAEADB000F54A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5352628814DAEADB000F54A0 /* InfoPlist.strings */; };
+		5352628C14DAEADB000F54A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352628B14DAEADB000F54A0 /* main.m */; };
+		5352629014DAEADB000F54A0 /* DumbAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352628F14DAEADB000F54A0 /* DumbAppDelegate.m */; };
+		5352629314DAEADB000F54A0 /* DumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352629214DAEADB000F54A0 /* DumbViewController.m */; };
+		5352629614DAEADB000F54A0 /* DumbViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5352629414DAEADB000F54A0 /* DumbViewController_iPhone.xib */; };
+		5352629914DAEADB000F54A0 /* DumbViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5352629714DAEADB000F54A0 /* DumbViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5352627B14DAEADB000F54A0 /* dumbapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dumbapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5352627F14DAEADB000F54A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5352628114DAEADB000F54A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5352628314DAEADB000F54A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5352628714DAEADB000F54A0 /* dumbapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dumbapp-Info.plist"; sourceTree = "<group>"; };
+		5352628914DAEADB000F54A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5352628B14DAEADB000F54A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5352628D14DAEADB000F54A0 /* dumbapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dumbapp-Prefix.pch"; sourceTree = "<group>"; };
+		5352628E14DAEADB000F54A0 /* DumbAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbAppDelegate.h; sourceTree = "<group>"; };
+		5352628F14DAEADB000F54A0 /* DumbAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbAppDelegate.m; sourceTree = "<group>"; };
+		5352629114DAEADB000F54A0 /* DumbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbViewController.h; sourceTree = "<group>"; };
+		5352629214DAEADB000F54A0 /* DumbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbViewController.m; sourceTree = "<group>"; };
+		5352629514DAEADB000F54A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DumbViewController_iPhone.xib; sourceTree = "<group>"; };
+		5352629814DAEADB000F54A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DumbViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5352627814DAEADB000F54A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352628014DAEADB000F54A0 /* UIKit.framework in Frameworks */,
+				5352628214DAEADB000F54A0 /* Foundation.framework in Frameworks */,
+				5352628414DAEADB000F54A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5352627014DAEADB000F54A0 = {
+			isa = PBXGroup;
+			children = (
+				5352628514DAEADB000F54A0 /* dumbapp */,
+				5352627E14DAEADB000F54A0 /* Frameworks */,
+				5352627C14DAEADB000F54A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5352627C14DAEADB000F54A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5352627B14DAEADB000F54A0 /* dumbapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5352627E14DAEADB000F54A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5352627F14DAEADB000F54A0 /* UIKit.framework */,
+				5352628114DAEADB000F54A0 /* Foundation.framework */,
+				5352628314DAEADB000F54A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5352628514DAEADB000F54A0 /* dumbapp */ = {
+			isa = PBXGroup;
+			children = (
+				5352628E14DAEADB000F54A0 /* DumbAppDelegate.h */,
+				5352628F14DAEADB000F54A0 /* DumbAppDelegate.m */,
+				5352629114DAEADB000F54A0 /* DumbViewController.h */,
+				5352629214DAEADB000F54A0 /* DumbViewController.m */,
+				5352629414DAEADB000F54A0 /* DumbViewController_iPhone.xib */,
+				5352629714DAEADB000F54A0 /* DumbViewController_iPad.xib */,
+				5352628614DAEADB000F54A0 /* Supporting Files */,
+			);
+			path = dumbapp;
+			sourceTree = "<group>";
+		};
+		5352628614DAEADB000F54A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5352628714DAEADB000F54A0 /* dumbapp-Info.plist */,
+				5352628814DAEADB000F54A0 /* InfoPlist.strings */,
+				5352628B14DAEADB000F54A0 /* main.m */,
+				5352628D14DAEADB000F54A0 /* dumbapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5352627A14DAEADB000F54A0 /* dumbapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5352629C14DAEADB000F54A0 /* Build configuration list for PBXNativeTarget "dumbapp" */;
+			buildPhases = (
+				5352627714DAEADB000F54A0 /* Sources */,
+				5352627814DAEADB000F54A0 /* Frameworks */,
+				5352627914DAEADB000F54A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dumbapp;
+			productName = dumbapp;
+			productReference = 5352627B14DAEADB000F54A0 /* dumbapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5352627214DAEADB000F54A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5352627514DAEADB000F54A0 /* Build configuration list for PBXProject "dumbapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5352627014DAEADB000F54A0;
+			productRefGroup = 5352627C14DAEADB000F54A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5352627A14DAEADB000F54A0 /* dumbapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5352627914DAEADB000F54A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352628A14DAEADB000F54A0 /* InfoPlist.strings in Resources */,
+				5352629614DAEADB000F54A0 /* DumbViewController_iPhone.xib in Resources */,
+				5352629914DAEADB000F54A0 /* DumbViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5352627714DAEADB000F54A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352628C14DAEADB000F54A0 /* main.m in Sources */,
+				5352629014DAEADB000F54A0 /* DumbAppDelegate.m in Sources */,
+				5352629314DAEADB000F54A0 /* DumbViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5352628814DAEADB000F54A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5352628914DAEADB000F54A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5352629414DAEADB000F54A0 /* DumbViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5352629514DAEADB000F54A0 /* en */,
+			);
+			name = DumbViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5352629714DAEADB000F54A0 /* DumbViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5352629814DAEADB000F54A0 /* en */,
+			);
+			name = DumbViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5352629A14DAEADB000F54A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5352629B14DAEADB000F54A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5352629D14DAEADB000F54A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dumbapp/dumbapp-Prefix.pch";
+				INFOPLIST_FILE = "dumbapp/dumbapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5352629E14DAEADB000F54A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dumbapp/dumbapp-Prefix.pch";
+				INFOPLIST_FILE = "dumbapp/dumbapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5352627514DAEADB000F54A0 /* Build configuration list for PBXProject "dumbapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5352629A14DAEADB000F54A0 /* Debug */,
+				5352629B14DAEADB000F54A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5352629C14DAEADB000F54A0 /* Build configuration list for PBXNativeTarget "dumbapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5352629D14DAEADB000F54A0 /* Debug */,
+				5352629E14DAEADB000F54A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5352627214DAEADB000F54A0 /* Project object */;
+}
