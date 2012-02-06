@@ -7,13 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapViewController.h"
 
-@class DumbViewController;
+@class MapViewController;
 
 @interface DumbAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    MapViewController *_mapViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) DumbViewController *viewController;
+@property (strong, nonatomic) MapViewController *mapViewController;
 
 @end

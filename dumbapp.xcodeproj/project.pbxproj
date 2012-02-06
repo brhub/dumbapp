@@ -13,9 +13,10 @@
 		5352628A14DAEADB000F54A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5352628814DAEADB000F54A0 /* InfoPlist.strings */; };
 		5352628C14DAEADB000F54A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352628B14DAEADB000F54A0 /* main.m */; };
 		5352629014DAEADB000F54A0 /* DumbAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352628F14DAEADB000F54A0 /* DumbAppDelegate.m */; };
-		5352629314DAEADB000F54A0 /* DumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352629214DAEADB000F54A0 /* DumbViewController.m */; };
-		5352629614DAEADB000F54A0 /* DumbViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5352629414DAEADB000F54A0 /* DumbViewController_iPhone.xib */; };
-		5352629914DAEADB000F54A0 /* DumbViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5352629714DAEADB000F54A0 /* DumbViewController_iPad.xib */; };
+		53B4D39A14DC474D00404256 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B4D39914DC474D00404256 /* MapKit.framework */; };
+		53B4D39E14DC489700404256 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4D39D14DC489700404256 /* MapViewController.m */; };
+		53B4D3A014DC493400404256 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53B4D39F14DC493400404256 /* MapView.xib */; };
+		53B4D3A314DFF93100404256 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4D3A214DFF93100404256 /* AddressAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +30,12 @@
 		5352628D14DAEADB000F54A0 /* dumbapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dumbapp-Prefix.pch"; sourceTree = "<group>"; };
 		5352628E14DAEADB000F54A0 /* DumbAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbAppDelegate.h; sourceTree = "<group>"; };
 		5352628F14DAEADB000F54A0 /* DumbAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbAppDelegate.m; sourceTree = "<group>"; };
-		5352629114DAEADB000F54A0 /* DumbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbViewController.h; sourceTree = "<group>"; };
-		5352629214DAEADB000F54A0 /* DumbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbViewController.m; sourceTree = "<group>"; };
-		5352629514DAEADB000F54A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DumbViewController_iPhone.xib; sourceTree = "<group>"; };
-		5352629814DAEADB000F54A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DumbViewController_iPad.xib; sourceTree = "<group>"; };
+		53B4D39914DC474D00404256 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		53B4D39C14DC489700404256 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		53B4D39D14DC489700404256 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		53B4D39F14DC493400404256 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		53B4D3A114DFF93100404256 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		53B4D3A214DFF93100404256 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 				5352628014DAEADB000F54A0 /* UIKit.framework in Frameworks */,
 				5352628214DAEADB000F54A0 /* Foundation.framework in Frameworks */,
 				5352628414DAEADB000F54A0 /* CoreGraphics.framework in Frameworks */,
+				53B4D39A14DC474D00404256 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +73,7 @@
 		5352627E14DAEADB000F54A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53B4D39914DC474D00404256 /* MapKit.framework */,
 				5352627F14DAEADB000F54A0 /* UIKit.framework */,
 				5352628114DAEADB000F54A0 /* Foundation.framework */,
 				5352628314DAEADB000F54A0 /* CoreGraphics.framework */,
@@ -79,12 +84,13 @@
 		5352628514DAEADB000F54A0 /* dumbapp */ = {
 			isa = PBXGroup;
 			children = (
+				53B4D3A114DFF93100404256 /* AddressAnnotation.h */,
+				53B4D3A214DFF93100404256 /* AddressAnnotation.m */,
+				53B4D39C14DC489700404256 /* MapViewController.h */,
+				53B4D39D14DC489700404256 /* MapViewController.m */,
 				5352628E14DAEADB000F54A0 /* DumbAppDelegate.h */,
 				5352628F14DAEADB000F54A0 /* DumbAppDelegate.m */,
-				5352629114DAEADB000F54A0 /* DumbViewController.h */,
-				5352629214DAEADB000F54A0 /* DumbViewController.m */,
-				5352629414DAEADB000F54A0 /* DumbViewController_iPhone.xib */,
-				5352629714DAEADB000F54A0 /* DumbViewController_iPad.xib */,
+				53B4D39F14DC493400404256 /* MapView.xib */,
 				5352628614DAEADB000F54A0 /* Supporting Files */,
 			);
 			path = dumbapp;
@@ -152,8 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5352628A14DAEADB000F54A0 /* InfoPlist.strings in Resources */,
-				5352629614DAEADB000F54A0 /* DumbViewController_iPhone.xib in Resources */,
-				5352629914DAEADB000F54A0 /* DumbViewController_iPad.xib in Resources */,
+				53B4D3A014DC493400404256 /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +171,8 @@
 			files = (
 				5352628C14DAEADB000F54A0 /* main.m in Sources */,
 				5352629014DAEADB000F54A0 /* DumbAppDelegate.m in Sources */,
-				5352629314DAEADB000F54A0 /* DumbViewController.m in Sources */,
+				53B4D39E14DC489700404256 /* MapViewController.m in Sources */,
+				53B4D3A314DFF93100404256 /* AddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,22 +185,6 @@
 				5352628914DAEADB000F54A0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5352629414DAEADB000F54A0 /* DumbViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5352629514DAEADB000F54A0 /* en */,
-			);
-			name = DumbViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		5352629714DAEADB000F54A0 /* DumbViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5352629814DAEADB000F54A0 /* en */,
-			);
-			name = DumbViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,6 +278,7 @@
 				5352629E14DAEADB000F54A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
