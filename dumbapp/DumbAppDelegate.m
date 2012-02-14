@@ -11,13 +11,13 @@
 @implementation DumbAppDelegate
 
 @synthesize window = _window;
-@synthesize mapViewController = _mapViewController;
+@synthesize clubsViewController = _mapViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.mapViewController = [[MapViewController alloc] initWithNibName:@"MapView" bundle:nil];
-    [self.window addSubview:self.mapViewController.view];
+    self.clubsViewController = [[ClubsViewController alloc] initWithNibName:@"ClubsViewController" bundle:nil];
+    [self.window addSubview:self.clubsViewController.view];
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
